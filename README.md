@@ -84,7 +84,7 @@ Some contributed in the [express-device](https://github.com/rguerreiro/express-d
 - [@Sitebase](https://github.com/Sitebase)
 - [@lennym](https://github.com/lennym)
 
-Special thanks to @jimmybergman that allowed me to use his `device` package for this refactoring.
+Special thanks to [@jimmybergman](https://github.com/jimmybergman) that allowed me to use his `device` package for this refactoring.
 
 ## where to go from here?
 
