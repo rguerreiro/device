@@ -170,6 +170,12 @@ describe('device', function() {
             assert.equal(mydevice.type, 'tv');
         });
     });
+    describe('29.Chromecast', function () {
+        it('should get device type tv', function () {
+            var mydevice = device('CrKey');
+            assert.equal(mydevice.type, 'tv');
+        });
+    }); 
     describe('TV device type check with is method', function () {
         it('should get true', function () {
             var mydevice = device('PlayStation 3');
