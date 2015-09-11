@@ -120,6 +120,34 @@ describe('device', function () {
             assert.equal(mydevice.type, 'tv');
         })
     });
+	
+	describe('with car user agent and configured to return desktop', function(){
+        it('should get desktop', function(){
+            var mydevice = device('QtCarBrowser', { carUserAgentDeviceType: 'desktop' });
+            assert.equal(mydevice.type, 'desktop');
+        })
+    });
+
+    describe('with car user agent and configured to return phone', function(){
+        it('should get phone', function(){
+            var mydevice = device('QtCarBrowser', { carUserAgentDeviceType: 'phone' });
+            assert.equal(mydevice.type, 'phone');
+        })
+    });
+
+    describe('with car user agent and configured to return tablet', function(){
+        it('should get tablet', function(){
+            var mydevice = device('QtCarBrowser', { carUserAgentDeviceType: 'tablet' });
+            assert.equal(mydevice.type, 'tablet');
+        })
+    });
+
+    describe('with car user agent and configured to return tv', function(){
+        it('should get tv', function(){
+            var mydevice = device('QtCarBrowser', { carUserAgentDeviceType: 'tv' });
+            assert.equal(mydevice.type, 'tv');
+        })
+    });
 
     describe('with user-agent of google nexus 10 and parse enabled', function () {
         it('should get nexus 10 as device name', function () {
