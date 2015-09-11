@@ -164,6 +164,12 @@ describe('device', function() {
             assert.equal(mydevice.type, 'tv');
         });
     });
+    describe('28.Playstation 4', function () {
+        it('should get device type tv', function () {
+            var mydevice = device('Mozilla/5.0 (PlayStation 4 1.000) AppleWebKit/536.26 (KHTML, like Gecko)');
+            assert.equal(mydevice.type, 'tv');
+        });
+    });
     describe('TV device type check with is method', function () {
         it('should get true', function () {
             var mydevice = device('PlayStation 3');
