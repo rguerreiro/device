@@ -2,8 +2,8 @@
   "name": "device",
   "author": "Rodrigo Guerreiro (@rguerreiro)",
   "description": "Device type detection library based on the useragent string. Refactored from express-device.",
-  "keywords": ["browser","mobile","detection","user-agent","useragent","desktop","phone","tablet","tv","bot","parsing","device"],
-  "version": "0.3.1",
+  "keywords": ["browser","mobile","detection","user-agent","useragent","desktop","phone","tablet","tv","bot","car","parsing","device"],
+  "version": "0.3.2",
   "main": "./index.js",
   "private": false,
   "engines": {
