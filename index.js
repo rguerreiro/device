@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('./lib/wimd.js');
+module.exports = require('./lib/device.js');
