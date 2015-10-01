@@ -2366,4 +2366,16 @@ describe('device', function() {
             assert.equal(mydevice.is('bot'), true);
         });
     });
+    describe('AWS ELB Bot', function () {
+        it('should get true', function () {
+            var mydevice = device('ELB-HealthChecker/1.0');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
+    describe('AWS Ops Works monitoring Bot', function () {
+        it('should get true', function () {
+            var mydevice = device('monit/5.6');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
 });
