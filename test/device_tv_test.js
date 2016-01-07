@@ -175,7 +175,13 @@ describe('device', function() {
             var mydevice = device('CrKey');
             assert.equal(mydevice.type, 'tv');
         });
-    }); 
+    });
+    describe('30.Samsung smart tv', function () {
+        it('should get device type tv', function () {
+            var mydevice = device('Mozilla/5.0 (SMART-TV; Linux; Tizen 2.3) AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/1.0 TV Safari/538.1');
+            assert.equal(mydevice.type, 'tv');
+        });
+    });
     describe('TV device type check with is method', function () {
         it('should get true', function () {
             var mydevice = device('PlayStation 3');
