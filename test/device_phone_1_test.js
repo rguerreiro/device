@@ -5240,24 +5240,28 @@ describe('device', function() {
             assert.equal(mydevice.type, 'phone');
         });
     });
-    describe('874.DoCoMo N905i',function(){
-        it('should get device type phone', function(){
-            var mydevice = device('DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)');
-            assert.equal(mydevice.type, 'phone');
-        });
-    });
+    // wrongly marked as phone. this is a bot. keeping here for historic reasons
+    // please see the bot\phone tests
+    //describe('874.DoCoMo N905i',function(){
+    //    it('should get device type phone', function(){
+    //        var mydevice = device('DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)');
+    //        assert.equal(mydevice.type, 'phone');
+    //    });
+    //});
     describe('875.DoCoMo N905i',function(){
         it('should get device type phone', function(){
             var mydevice = device('Mozilla/4.08 (N905i;FOMA;c500;TB)');
             assert.equal(mydevice.type, 'phone');
         });
     });
-    describe('876.DoCoMo N905i',function(){
-        it('should get device type phone', function(){
-            var mydevice = device('DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)');
-            assert.equal(mydevice.type, 'phone');
-        });
-    });
+    // wrongly marked as phone. this is a bot. keeping here for historic reasons
+    // please see the bot\phone tests
+    //describe('876.DoCoMo N905i',function(){
+    //    it('should get device type phone', function(){
+    //        var mydevice = device('DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)');
+    //        assert.equal(mydevice.type, 'phone');
+    //    });
+    //});
     describe('877.DoCoMo N906i',function(){
         it('should get device type phone', function(){
             var mydevice = device('Mozilla/5.0 (N906i;FOMA;like Gecko)');

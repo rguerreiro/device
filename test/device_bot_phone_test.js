@@ -452,6 +452,25 @@ describe('device', function() {
             assert.equal(mydevice.type, 'bot');
         });
     });
+    https://support.google.com/webmasters/answer/1061943?hl=en
+    describe('76.Google Mobile (feature phone)', function () {
+        it('should get device type bot', function () {
+            var mydevice = device('SAMSUNG-SGH-E250/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0 (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)');
+            assert.equal(mydevice.type, 'bot');
+        });
+    });
+    describe('77.Google Mobile (feature phone)', function () {
+        it('should get device type bot', function () {
+            var mydevice = device('DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)');
+            assert.equal(mydevice.type, 'bot');
+        });
+    });
+    describe('78.Google Smartphone', function () {
+        it('should get device type bot', function () {
+            var mydevice = device('Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)');
+            assert.equal(mydevice.type, 'bot');
+        });
+    });
     describe('Bot device type check with is method', function () {
         it('should get true', function () {
             var mydevice = device('Facebot');

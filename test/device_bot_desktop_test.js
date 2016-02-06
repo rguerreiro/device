@@ -2378,4 +2378,41 @@ describe('device', function() {
             assert.equal(mydevice.is('bot'), true);
         });
     });
+    //https://support.google.com/webmasters/answer/1061943?hl=en
+    describe('Googlebot (Google Web search)', function () {
+        it('should get true', function () {
+            var mydevice = device('Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
+    describe('Googlebot rarely used (Google Web search)', function () {
+        it('should get true', function () {
+            var mydevice = device('Googlebot/2.1 (+http://www.google.com/bot.html)');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
+    describe('Googlebot Images', function () {
+        it('should get true', function () {
+            var mydevice = device('Googlebot-Image/1.0');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
+    describe('Googlebot Video', function () {
+        it('should get true', function () {
+            var mydevice = device('Googlebot-Video/1.0');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
+    describe('Google AdSense', function () {
+        it('should get true', function () {
+            var mydevice = device('Mediapartners-Google');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
+    describe('Google AdsBot landing page quality check', function () {
+        it('should get true', function () {
+            var mydevice = device('AdsBot-Google (+http://www.google.com/adsbot.html)');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
 });
