@@ -1,4 +1,4 @@
-# device [![Build Status](https://secure.travis-ci.org/rguerreiro/device.png?branch=master)](http://travis-ci.org/rguerreiro/device) [![NPM version](https://badge.fury.io/js/device.svg)](http://badge.fury.io/js/device)
+# device [![NPM version](http://img.shields.io/npm/v/device.svg?style=flat)](https://npmjs.org/package/device) [![Downloads](https://img.shields.io/npm/dm/device.svg?style=flat)](https://npmjs.org/package/device) [![Build Status](https://secure.travis-ci.org/rguerreiro/device.png?branch=master)](http://travis-ci.org/rguerreiro/device)
 
 ## device
 
