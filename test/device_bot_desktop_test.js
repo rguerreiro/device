@@ -2415,4 +2415,10 @@ describe('device', function() {
             assert.equal(mydevice.is('bot'), true);
         });
     });
+    describe('Wget user-agent', function () {
+        it('should get true', function () {
+            var mydevice = device('Wget/1.9.1');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
 });
