@@ -2421,4 +2421,11 @@ describe('device', function() {
             assert.equal(mydevice.is('bot'), true);
         });
     });
+    describe('jora.com JobBot', function () {
+        it('should get true', function () {
+            var mydevice = device('JobBot/5.0 (compatible; +http://www.jobseeker.com.au/bot.html)');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
 });
+
