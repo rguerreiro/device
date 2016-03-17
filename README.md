@@ -91,6 +91,7 @@ Some contributed in the [express-device](https://github.com/rguerreiro/express-d
 - [@lennym](https://github.com/lennym)
 - [@martincad](https://github.com/martincad)
 - [@mettin](https://github.com/mettin)
+- [@cliftonc](https://github.com/cliftonc)
 
 Special thanks to [@jimmybergman](https://github.com/jimmybergman) that allowed me to use his `device` package for this refactoring.
 
