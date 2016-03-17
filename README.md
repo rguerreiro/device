@@ -96,7 +96,7 @@ Special thanks to [@jimmybergman](https://github.com/jimmybergman) that allowed 
 
 ## where to go from here?
 
-Currently, `device` is on **version 0.3.5**. In order to add more features I'm asking anyone to contribute with some ideas. You can do it by making some feature requests on the issues panel, but I prefer that you make your contribution with some pull requests ;)
+Currently, `device` is on **version 0.3.6**. In order to add more features I'm asking anyone to contribute with some ideas. You can do it by making some feature requests on the issues panel, but I prefer that you make your contribution with some pull requests ;)
 
 ## license
 
