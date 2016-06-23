@@ -2423,7 +2423,7 @@ describe('device', function() {
     });
     describe('jora.com JobBot', function () {
         it('should get true', function () {
-            var mydevice = device('JobBot/5.0 (compatible; +http://www.jobseeker.com.au/bot.html)');
+            var mydevice = device('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) JobBot/5.0 (compatible; +http://www.jobseeker.com.au/bot.html) Safari/538.1');
             assert.equal(mydevice.is('bot'), true);
         });
     });
