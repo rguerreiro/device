@@ -2427,5 +2427,10 @@ describe('device', function() {
             assert.equal(mydevice.is('bot'), true);
         });
     });
+    describe('GoogleCloud Monitor', function () {
+        it('should get true', function () {
+            var mydevice = device('GoogleCloudMonitoring-UptimeChecks(https://cloud.google.com/monitoring)');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
 });
-
