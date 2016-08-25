@@ -2433,4 +2433,10 @@ describe('device', function() {
             assert.equal(mydevice.is('bot'), true);
         });
     });
+    describe('moatbot', function () {
+        it('should get true', function() {
+            var mydevice = device('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 moatbot');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    })
 });
