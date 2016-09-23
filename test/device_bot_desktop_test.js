@@ -2439,4 +2439,10 @@ describe('device', function() {
             assert.equal(mydevice.is('bot'), true);
         });
     })
+    describe('GoogleStackdriver Monitoring', function () {
+        it('should get true', function () {
+            var mydevice = device('GoogleStackdriverMonitoring-UptimeChecks(https://cloud.google.com/monitoring)');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
 });
