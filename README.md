@@ -43,25 +43,37 @@ It accepts an object with only the config options you which to override (go [her
         <td>emptyUserAgentDeviceType</td>
         <td>string</td>
         <td>Device type to be returned whenever the has an empty user-agent. Defaults to desktop.</td>
-        <td>desktop, tv, tablet, phone, bot or car</td>
+        <td>desktop, tv, tablet, phone, bot, car or console</td>
     </tr>
 	<tr>
         <td>unknownUserAgentDeviceType</td>
         <td>string</td>
         <td>Device type to be returned whenever the user-agent is unknown. Defaults to phone.</td>
-        <td>desktop, tv, tablet, phone, bot or car</td>
+        <td>desktop, tv, tablet, phone, bot, car or console</td>
     </tr>
     <tr>
         <td>botUserAgentDeviceType</td>
         <td>string</td>
         <td>Device type to be returned whenever the user-agent belongs to a bot. Defaults to bot.</td>
-        <td>desktop, tv, tablet, phone, bot or car</td>
+        <td>desktop, tv, tablet, phone, bot, car or console</td>
     </tr>
     <tr>
         <td>carUserAgentDeviceType</td>
         <td>string</td>
         <td>Device type to be returned whenever the user-agent belongs to a car. Defaults to car.</td>
-        <td>desktop, tv, tablet, phone, bot or car</td>
+        <td>desktop, tv, tablet, phone, bot, car or console</td>
+    </tr>
+    <tr>
+        <td>consoleUserAgentDeviceType</td>
+        <td>string</td>
+        <td>Device type to be returned whenever the user-agent belongs to a console. Defaults to tv.</td>
+        <td>desktop, tv, tablet, phone, bot, car or console</td>
+    </tr>
+    <tr>
+        <td>tvUserAgentDeviceType</td>
+        <td>string</td>
+        <td>Device type to be returned whenever the user-agent belongs to a tv. Defaults to tv.</td>
+        <td>desktop, tv, tablet, phone, bot, car or console</td>
     </tr>
     <tr>
         <td>parseUserAgent</td>
