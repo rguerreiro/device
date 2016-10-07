@@ -105,6 +105,7 @@ Some contributed in the [express-device](https://github.com/rguerreiro/express-d
 - [@mettin](https://github.com/mettin)
 - [@cliftonc](https://github.com/cliftonc)
 - [@BorePlusPlus](https://github.com/BorePlusPlus)
+- [@Minaru](https://github.com/Minaru)
 
 Special thanks to [@jimmybergman](https://github.com/jimmybergman) that allowed me to use his `device` package for this refactoring.
 
