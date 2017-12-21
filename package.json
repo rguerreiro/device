@@ -17,7 +17,7 @@
     "parsing",
     "device"
   ],
-  "version": "0.3.8",
+  "version": "0.3.9",
   "main": "./index.js",
   "private": false,
   "engines": {
