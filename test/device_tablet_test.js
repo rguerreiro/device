@@ -998,4 +998,10 @@ describe('device', function() {
             assert.equal(mydevice.is('phone'), false);
         });
     });
+    describe('iPad Pro 12.9', function () {
+        it('should get device type tablet', function () {
+            var mydevice = device('Mozilla/5.0 (iPad; CPU OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0 Mobile/14C89 Safari/602.1');
+            assert.equal(mydevice.is('tablet'), true);
+        });
+    });
 });

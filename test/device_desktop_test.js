@@ -512,4 +512,22 @@ describe('device', function() {
             assert.equal(mydevice.is('desktop'), true);
         });
     });
+    describe('85.Chrome 63.0.3239.132 on Win 10 Pro', function () {
+        it('should get true', function () {
+            var mydevice = device('User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36');
+            assert.equal(mydevice.is('desktop'), true);
+        });        
+    });
+    describe('86.Firefox 57.0.4 on Win 10 Pro', function () {
+        it('should get true', function () {
+            var mydevice = device('User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.48 Safari/537.36');
+            assert.equal(mydevice.is('desktop'), true);
+        });        
+    });
+    describe('87.Edge 41.16299.15.0 on Win 10 Pro', function () {
+        it('should get true', function () {
+            var mydevice = device('User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.48 Safari/537.36');
+            assert.equal(mydevice.is('desktop'), true);
+        });        
+    });
 });

@@ -1772,6 +1772,12 @@ describe('device', function() {
             assert.equal(mydevice.type, 'phone');
         });
     });
+    describe('10296.Redmi Note 4',function(){
+        it('should get device type phone', function(){
+            var mydevice = device('Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36');
+            assert.equal(mydevice.type, 'phone');
+        });
+    });
     describe('Phone device type check with is method', function () {
         it('should get true', function () {
             var mydevice = device('iPhone');
