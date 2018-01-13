@@ -2438,10 +2438,52 @@ describe('device', function() {
             var mydevice = device('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 moatbot');
             assert.equal(mydevice.is('bot'), true);
         });
-    })
+    });
     describe('GoogleStackdriver Monitoring', function () {
         it('should get true', function () {
             var mydevice = device('GoogleStackdriverMonitoring-UptimeChecks(https://cloud.google.com/monitoring)');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
+    describe('Dynatrace gomezagent', function () {
+        it('should get true', function () {
+            var mydevice = device('gomezagent');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
+    describe('Dynatrace apm synthetic agent', function () {
+        it('should get true', function () {
+            var mydevice = device('apm synthetic agent');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
+    describe('Dynatrace ruxitsynthetic', function () {
+        it('should get true', function () {
+            var mydevice = device('ruxitsynthetic');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
+    describe('Dynatrace ktxn', function () {
+        it('should get true', function () {
+            var mydevice = device('ktxn');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
+    describe('Dynatrace khte', function () {
+        it('should get true', function () {
+            var mydevice = device('khte');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
+    describe('Dynatrace ktht', function () {
+        it('should get true', function () {
+            var mydevice = device('ktht');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
+    describe('Dynatrace', function () {
+        it('should get true', function () {
+            var mydevice = device('dynatrace');
             assert.equal(mydevice.is('bot'), true);
         });
     });
