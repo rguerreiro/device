@@ -3,12 +3,11 @@ branches:
   only:
     - master
 node_js:
-  - "4.1"
-  - "4.0"
-  - "0.12"
-  - "0.11"
-  - "0.10"
-  - "iojs"
+  - "8"
+  - "7"
+  - "6"
+  - "5"
+  - "4"
 
 notifications:
   email:
