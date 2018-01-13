@@ -471,6 +471,12 @@ describe('device', function() {
             assert.equal(mydevice.type, 'bot');
         });
     });
+    describe('79.WhatsApp Bot', function () {
+        it('should get device type bot', function () {
+            var mydevice = device('*_WhatsApp/2.12.81 (Windows NT 6.1; U; es-ES) Presto/2.9.181 Version/12.00');
+            assert.equal(mydevice.type, 'bot');
+        });
+    });
     describe('Bot device type check with is method', function () {
         it('should get true', function () {
             var mydevice = device('Facebot');
