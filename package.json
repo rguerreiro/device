@@ -24,7 +24,7 @@
     "node": ">=0.10"
   },
   "dependencies": {
-    "useragent": "*",
+    "useragent": "luchillo17/useragent#hotfix/prod-deps-in-dev-deps",
     "yamlparser": "^0.0.2"
   },
   "devDependencies": {
