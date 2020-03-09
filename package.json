@@ -26,7 +26,8 @@
   "dependencies": {
     "useragent": "*",
     "yamlparser": "*",
-    "request": "*"
+    "request": "*",
+    "diff": ">=3.5.0"
   },
   "devDependencies": {
     "mocha": "*"
