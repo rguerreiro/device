@@ -530,4 +530,10 @@ describe('device', function() {
             assert.equal(mydevice.is('desktop'), true);
         });        
     });
+    describe('88.Golang', function () {
+        it('should get true', function () {
+            var mydevice = device('Go-http-client/1.1');
+            assert.equal(mydevice.is('desktop'), true);
+        });        
+    });
 });
