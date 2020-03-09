@@ -477,6 +477,12 @@ describe('device', function() {
             assert.equal(mydevice.type, 'bot');
         });
     });
+    describe('80.AdsBot', function () {
+        it('should get device type bot', function () {
+            var mydevice = device('Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)');
+            assert.equal(mydevice.type, 'bot');
+        });
+    });
     describe('Bot device type check with is method', function () {
         it('should get true', function () {
             var mydevice = device('Facebot');
