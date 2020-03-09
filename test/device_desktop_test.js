@@ -536,4 +536,10 @@ describe('device', function() {
             assert.equal(mydevice.is('desktop'), true);
         });        
     });
+    describe('89.No spaces (issue #28)', function () {
+        it('should get true', function () {
+            var mydevice = device('Mozilla/5.0(WindowsNT6.1;rv:31.0)Gecko/20100101Firefox/31.0');
+            assert.equal(mydevice.is('desktop'), true);
+        });        
+    });
 });
