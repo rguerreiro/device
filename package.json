@@ -17,11 +17,11 @@
     "parsing",
     "device"
   ],
-  "version": "0.3.9",
+  "version": "0.3.10",
   "main": "./index.js",
   "private": false,
   "engines": {
-    "node": ">=0.10"
+    "node": ">=8.x"
   },
   "dependencies": {
     "useragent": "*",

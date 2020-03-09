@@ -85,7 +85,7 @@ It accepts an object with only the config options you which to override (go [her
 
 In case you didn't notice there's also a method **is()** that will return a boolean (true or false) when you pass the device type that you want validate against (check the initial example).
 
-The **device** package is supported on node version 4.* upwards.
+The **device** package is supported on node version 8.* upwards.
 
 ## contributors
 
@@ -114,7 +114,7 @@ Special thanks to [@jimmybergman](https://github.com/jimmybergman) that allowed 
 
 ## where to go from here?
 
-Currently, `device` is on **version 0.3.9**. In order to add more features I'm asking anyone to contribute with some ideas. You can do it by making some feature requests on the issues panel, but I prefer that you make your contribution with some pull requests ;)
+Currently, `device` is on **version 0.3.10**. In order to add more features I'm asking anyone to contribute with some ideas. You can do it by making some feature requests on the issues panel, but I prefer that you make your contribution with some pull requests ;)
 
 In case you found a misinterpreted user-agent please open an issue and submit the full string and state what type of device it should return.
 
