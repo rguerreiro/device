@@ -2493,4 +2493,10 @@ describe('device', function() {
             assert.equal(mydevice.is('bot'), true);
         });
     });
+    describe('WinHTTP', function () {
+        it('should get true', function () {
+            var mydevice = device('WinHTTP');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
 });
