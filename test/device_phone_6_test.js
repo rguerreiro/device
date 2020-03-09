@@ -1778,6 +1778,12 @@ describe('device', function() {
             assert.equal(mydevice.type, 'phone');
         });
     });
+    describe('10297.iPhone (issue #31)',function(){
+        it('should get device type phone', function(){
+            var mydevice = device('Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Snapchat/10.47.5.13 (iPhone10,1; iOS 12.1.2; gzip)');
+            assert.equal(mydevice.type, 'phone');
+        });
+    });
     describe('Phone device type check with is method', function () {
         it('should get true', function () {
             var mydevice = device('iPhone');
