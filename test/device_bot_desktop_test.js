@@ -2487,4 +2487,10 @@ describe('device', function() {
             assert.equal(mydevice.is('bot'), true);
         });
     });
+    describe('TrendsmapResolver', function () {
+        it('should get true', function () {
+            var mydevice = device('Mozilla/5.0 (compatible; TrendsmapResolver/0.1)');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
 });
