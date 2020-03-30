@@ -19,6 +19,10 @@
   ],
   "version": "0.3.10",
   "main": "./index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "private": false,
   "engines": {
     "node": ">=8.x"
