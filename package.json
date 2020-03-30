@@ -24,10 +24,7 @@
     "node": ">=8.x"
   },
   "dependencies": {
-    "useragent": "*",
-    "yamlparser": "*",
-    "request": "*",
-    "diff": ">=3.5.0"
+    "useragent": "*"
   },
   "devDependencies": {
     "mocha": "*"
