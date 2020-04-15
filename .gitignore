@@ -21,3 +21,6 @@ node_modules
 npm-debug.log
 
 .c9revisions
+
+# WebStorm
+.idea
