@@ -2499,4 +2499,23 @@ describe('device', function() {
             assert.equal(mydevice.is('bot'), true);
         });
     });
+    // https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0
+    describe('bingbot #1', function () {
+        it('should get true', function () {
+            var mydevice = device('Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
+    describe('bingbot #2', function () {
+        it('should get true', function () {
+            var mydevice = device('Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/W.X.Y.Z Safari/537.36 Edg/W.X.Y.Z');
+            assert.equal(mydevice.is('bot'), true);
+        });
+    });
+    describe('bingbot #3', function () {
+        it('should get true', function () {
+            var mydevice = device('Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/W.X.Y.Z Mobile Safari/537.36 Edg/W.X.Y.Z (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)');
+            assert.equal(mydevice.type, 'bot');
+        });
+    });
 });
