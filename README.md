@@ -115,7 +115,7 @@ Special thanks to [@jimmybergman](https://github.com/jimmybergman) that allowed 
 
 ## where to go from here?
 
-Currently, `device` is on **version 0.3.11**. In order to add more features I'm asking anyone to contribute with some ideas. You can do it by making some feature requests on the issues panel, but I prefer that you make your contribution with some pull requests ;)
+Currently, `device` is on **version 0.3.12**. In order to add more features I'm asking anyone to contribute with some ideas. You can do it by making some feature requests on the issues panel, but I prefer that you make your contribution with some pull requests ;)
 
 In case you found a misinterpreted user-agent please open an issue and submit the full string and state what type of device it should return.
 

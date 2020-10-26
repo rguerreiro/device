@@ -17,7 +17,7 @@
     "parsing",
     "device"
   ],
-  "version": "0.3.11",
+  "version": "0.3.12",
   "main": "./index.js",
   "files": [
     "index.js",
