@@ -31,7 +31,7 @@
     "useragent": "*"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "^8.2.0"
   },
   "scripts": {
     "test": "mocha"
