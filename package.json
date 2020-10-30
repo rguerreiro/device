@@ -33,12 +33,6 @@
   "devDependencies": {
     "mocha": "^8.2.0"
   },
-  "babel": {
-    "presets": [
-      "es2015",
-      "react"
-    ]
-  },
   "scripts": {
     "test": "mocha"
   },

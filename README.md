@@ -85,7 +85,7 @@ It accepts an object with only the config options you which to override (go [her
 
 In case you didn't notice there's also a method **is()** that will return a boolean (true or false) when you pass the device type that you want validate against (check the initial example).
 
-The **device** package is supported on node version 8.* upwards.
+The **device** package is supported on node version 10.* upwards.
 
 ## contributors
 
